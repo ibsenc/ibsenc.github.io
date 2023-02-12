@@ -40,6 +40,11 @@ a:active { text-decoration: none; color: black}
     height: 60px;
 }
 
+.selected-element {
+    font-weight: 600;
+    /* text-decoration: underline; */
+}
+
 .navbar-element {
     margin: auto 66px;
     font-family: 'Syne', sans-serif;
@@ -53,42 +58,3 @@ a:active { text-decoration: none; color: black}
     top: 0px;
 }
 
-.blank-box {
-    height: 1000px;
-    width: 100%;
-}
-
-.quote-container {
-    margin: 175px auto;
-    /* background-color: aqua; */
-}
-
-#quote {
-    font-family: 'Syne', sans-serif;
-    font-size: 64px;
-    text-align: center;
-}
-
-#quote-author {
-    margin-top: 50px;
-    font-family: 'Syne', sans-serif;
-    font-size: 32px;
-    text-align: center;
-}
-
-.divider-container {
-    display: flex;
-    justify-content: center;
-}
-
-.divider {
-    margin: 0px;
-}
-
-.highlight {
-    background-color: #9dc6d1;
-}
-
-html:not([data-scroll='0']) navbar {
-    background-color: blue;
-  }
