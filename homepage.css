@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Andada+Pro&family=Syne:wght@400;600&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.header-box {
+    height: 120px;
+    width: 100%;
+    background-color: #F4AC94;
+    text-align: center;
+    display: flex;
+}
+
+.header-content {
+    font-family: 'Allan', cursive;
+    font-weight: normal;
+    margin: auto;
+    /* background-color: aqua; */
+    width: fit-content;
+    height: fit-content;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    margin-top: 1px;
+    background-color: #F4AC94;
+}
+
+.navbar-elements-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    height: 60px;
+}
+
+.navbar-element {
+    margin: auto 66px;
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    /* background-color: aqua; */
+}
+
+.sticky-pos {
+  	position: sticky;
+    top: 0px;
+}
+
+.blank-box {
+    height: 1000px;
+    width: 100%;
+}
+
+a:link { text-decoration: none; color: black}
+a:visited { text-decoration: none; color: black}
+a:hover { text-decoration: none; color: #366775;}
+a:active { text-decoration: none; color: black}
