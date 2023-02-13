@@ -27,30 +27,30 @@ a:active { text-decoration: none; color: black}
 }
 
 .navbar {
+    display: flex;
+    justify-content: center;
     height: 60px;
-    width: 100%;
     margin-top: 1px;
     background-color: #F4AC94;
 }
 
 .navbar-elements-container {
+    margin-top: 1px;
     display: flex;
-    justify-content: center;
-    /* background-color: blueviolet; */
-    height: 60px;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 500px;
 }
 
 .selected-element {
     font-weight: 600;
-    /* text-decoration: underline; */
 }
 
 .navbar-element {
-    margin: auto 66px;
+    margin: auto 0px;
     font-family: 'Syne', sans-serif;
     font-size: 16px;
     text-align: center;
-    /* background-color: aqua; */
 }
 
 .sticky-pos {
