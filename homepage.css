@@ -1,9 +1,5 @@
-.blank-box {
-    height: 1000px;
-    width: 100%;
-}
-
 .quote-container {
+    margin-top: 175px auto;
     margin: 175px auto;
     /* background-color: aqua; */
 }
@@ -26,14 +22,47 @@
     justify-content: center;
 }
 
-.divider {
-    margin: 0px;
-}
-
 .highlight {
     background-color: #9dc6d1;
 }
 
-html:not([data-scroll='0']) navbar {
-    background-color: blue;
+.subtitle {
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+}
+
+.story-outer-container {
+    display: flex;
+    /* background-color: blueviolet; */
+    justify-content: center;
+}
+
+.title {
+    margin-top: 100px;
+}
+
+.story-container {
+    padding: 50px;
+    /* background-color: coral; */
+    max-width: 1000px;
+    font-family: 'Syne', sans-serif;
+    margin-bottom: 80px;
+}
+
+.first-paragraph {
+    font-size: 30px;
+}
+
+hr {
+    border-top: 1px solid black;
+    width: 150px;
+    margin-bottom: 15px;
   }
+
+.job-title {
+    font-weight: 400;
+}
+
+ul {
+    padding-left: 15px;
+}

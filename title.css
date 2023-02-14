@@ -1,0 +1,13 @@
+.title-container {
+    text-align: center;
+    margin: 95px;
+    margin-bottom: 50px;
+    /* background-color: coral; */
+}
+
+.title {
+    color: #031424;
+    font-size: 34px;
+    font-family: 'Andada Pro', serif;
+    /* background-color: brown; */
+}
