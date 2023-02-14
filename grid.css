@@ -94,6 +94,17 @@
         grid-template-rows: min-content;
     }
 
+    .grid-container-resume {
+        margin: 15px;
+        grid-template-areas: 
+        "top-bar top-bar top-bar"
+        "side-bar1 side-bar1 side-bar1"
+        "grid-content1 grid-content1 grid-content1"
+        "side-bar2 side-bar2 side-bar2"
+        "grid-content2 grid-content2 grid-content2"
+        ;
+        grid-template-rows: min-content;
+    }
 
     .grid-section {
         padding: 22px;

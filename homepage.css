@@ -26,11 +26,6 @@
     background-color: #9dc6d1;
 }
 
-.subtitle {
-    text-align: center;
-    font-family: 'Syne', sans-serif;
-}
-
 .story-outer-container {
     display: flex;
     /* background-color: blueviolet; */
@@ -39,6 +34,16 @@
 
 .title {
     margin-top: 100px;
+}
+
+.subtitle-container {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'Syne', sans-serif;
 }
 
 .story-container {
@@ -65,4 +70,34 @@ hr {
 
 ul {
     padding-left: 15px;
+}
+
+@media (max-width: 450px) {
+    .quote-container {
+        margin-top: 100px auto;
+        margin: 100px auto;
+    }
+
+    #quote {
+        font-size: 32px;
+    }
+
+    #quote-author {
+        font-size: 24px;
+    }
+
+    .story-container {
+        padding: 30px;
+        margin-bottom: 60px;
+    }
+    
+    .first-paragraph {
+        font-size: 24px;
+    }
+
+    .title-container {
+        text-align: center;
+        margin: 95px;
+        margin-bottom: 35px;
+    }
 }
