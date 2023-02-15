@@ -9,12 +9,6 @@
     padding: 15px;
 }
 
-@media (max-width: 450px) {
-    .contact-inner-container {
-        margin-top: 0px;
-    }
-}
-
 .title-container {
     margin-top: 30px;
     text-align: center;
@@ -28,10 +22,36 @@
 }
 
 .table-container {
-    margin-top: 40px;
+    margin: auto;
 }
 
 .table-element {
     margin: 5px;
     font-family: 'Syne', sans-serif;
+}
+
+.box-container {
+    background-color: rgb(162, 180, 192, 0.5);
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+}
+
+.box-container:hover {
+    transform: rotate(5deg);
+    transition: 500ms;
+}
+
+@media (max-width: 450px) {
+    .contact-inner-container {
+        margin-top: 0px;
+    }
+
+    .box-container {
+        width: fit-content;
+        height: fit-content;
+        padding: 25px 15px;
+    }
 }
