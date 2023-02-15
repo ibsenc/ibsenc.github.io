@@ -159,7 +159,7 @@
 
 .special-link:link {text-decoration: underline; color: black}
 .special-link:visited {text-decoration: underline; color: black}
-.special-link:hover {text-decoration: underline; color: black}
+.special-link:hover {text-decoration: underline; color: #366775}
 .special-link:active {text-decoration: underline; color: black}
 
 .grid-break {
