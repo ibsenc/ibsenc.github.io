@@ -3,59 +3,49 @@
     justify-content: center;
     flex-direction: column;
     margin: 100px 110px;
-    /* background-color: aqua; */
 }
 
 .about-grid-container {
     margin: auto;
-    /* margin-bottom: 72px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-gap: 0px; */
 
     grid-template-areas: 
         "profile-image first-paragraph first-paragraph first-paragraph"
         "second-paragraph second-paragraph second-paragraph projects-link"
         "hobby-image third-paragraph third-paragraph third-paragraph"
     ;
-    /* grid-template-rows: 1fr 1fr 1fr; */
     grid-template-rows: min-content;
 }
 
 .profile-image {
     grid-area: profile-image;
-    /* background-color: gold; */
     display: flex;
     justify-content: center;
 }
 
 .hobby-image {
     grid-area: hobby-image;
-    /* background-color: lightblue; */
 }
 
 .first-paragraph {
     padding: 80px 65px;
     grid-area: first-paragraph;
-    /* background-color: purple; */
 }
 
 .second-paragraph {
     padding: 80px 10px;
     padding-left: 0px;
     grid-area: second-paragraph;
-    /* background-color: blue; */
 }
 
 .third-paragraph {
     padding: 80px 65px;
     grid-area: third-paragraph;
-    /* background-color: hotpink; */
 }
 
 .projects-link {
     grid-area: projects-link;
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
 }
@@ -131,5 +121,9 @@
 
     .hobby-image {
         margin-top: 20px;
+    }
+
+    .caption {
+        margin-top: 0px;
     }
 }

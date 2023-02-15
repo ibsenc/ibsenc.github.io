@@ -47,6 +47,7 @@
 }
 
 .story-container {
+    line-height: 1.5;
     padding: 50px;
     /* background-color: coral; */
     max-width: 1000px;
@@ -54,7 +55,7 @@
     margin-bottom: 80px;
 }
 
-.first-paragraph {
+p:first-child {
     font-size: 30px;
 }
 
@@ -69,6 +70,8 @@ hr {
 }
 
 ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-left: 15px;
 }
 
@@ -90,8 +93,8 @@ ul {
         padding: 30px;
         margin-bottom: 60px;
     }
-    
-    .first-paragraph {
+
+    p:first-child {
         font-size: 24px;
     }
 
