@@ -9,4 +9,4 @@ Prior to implementation, I designed and prototyped this website using [Figma](ht
 
 
 ### View My Website
-Please visit [https://ibsenc.github.io/](https://ibsenc.github.io/) to view my personal website.
+Please visit [https://camilleibsen.com/](https://camilleibsen.com/) to view my personal website.
